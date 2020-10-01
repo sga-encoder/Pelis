@@ -1,0 +1,56 @@
+.contenedor_blog{
+	display: inline-block;
+	float:left;
+	background-color: #A7A7A7;
+	border-radius: 10px;
+	border: 5px solid black;
+	margin: 50px;
+	margin-top: 10px;
+}
+
+.parrafo_blog{
+	font-family: "Marbles Trick 1_PersonalUseOnly";
+	padding: 50px;
+	font-size: 15px;
+}
+
+.imagenes{
+	width: 300px;
+	padding: 50px 10px 10px 50px;
+	float: left;
+}
+
+.video{
+	width: 80%;
+	margin: 20px auto;
+}
+
+@media screen and (max-width: 640px){
+	.Titulo_Principal{
+		font-size: 50px;
+	}
+	.contenedor_blog{
+		margin: 15px;	
+	}
+	
+	.parrafo_blog{
+		padding: 20px;
+		font-size: 20px;
+	}
+	.imagenes{
+		padding-top: 20px;
+		padding-left: 20px;
+		width: 98%;
+	}
+}
+
+@media screen and (max-width: 570px){
+	.imagenes{
+		float: none;
+		margin: 0px auto;
+	}
+}
+
+@media screen and (max-width: 400px){
+	
+}

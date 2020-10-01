@@ -1,0 +1,50 @@
+body{
+	font-family: "Corrupted File";
+}
+.contenedores_i{
+	width: 96%;
+	margin: 2%;
+}
+.parrafo_E{
+	font-size: 100px;
+	text-align: center;
+	padding: 20% 10%;
+	max-width: 100%;
+	padding-bottom: 7%;
+}
+
+.parrafo_E2{
+	text-align: center;
+	padding-bottom: 15%;
+	font-size: 25px;
+}
+
+@media screen and (max-width: 560px){
+	
+	.parrafo_E{
+		font-size: 70px;
+	}
+	.parrafo_E2{
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 425px){
+	
+	.parrafo_E{
+		font-size: 60px;
+	}
+	.parrafo_E2{
+		font-size: 15px;
+	}
+}
+
+@media screen and (max-width: 300px){
+	
+	.parrafo_E{
+		font-size: 50px;
+	}
+	.parrafo_E2{
+		font-size: 10px;
+	}
+}
