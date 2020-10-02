@@ -48,6 +48,7 @@ table {border-collapse: collapse;border-spacing: 0;}
 body{
 	width: 100%;
 	font-family: "Marbles Trick 1_PersonalUseOnly";
+	background-color: #474747
 }
 
 img{
@@ -201,6 +202,53 @@ footer{
 -------------------------------------------------------------------------------------------------------------------------------------
 */
 
+
+@media screen and (min-width: 1000px){
+	.Barra_Navegacion_i{
+		font-size: 27px;
+	}
+	.Barra_Navegacion_i:hover{
+		font-size: 32px;
+	}
+}
+
+}
+
+@media screen and (min-width: 1100px){
+	.Barra_Navegacion_i{
+		font-size: 30px;
+	}
+	.Barra_Navegacion_i:hover{
+		font-size: 35px;
+	}
+}
+
+@media screen and (min-width: 1300px){
+	.Barra_Navegacion_i{
+		font-size: 35px;
+	}
+	.Barra_Navegacion_i:hover{
+		font-size: 40px;
+	}
+}
+
+@media screen and (min-width: 1600px){
+	.Barra_Navegacion_i{
+		font-size: 40px;
+	}
+	.Barra_Navegacion_i:hover{
+		font-size: 45px;
+	}
+}
+
+@media screen and (min-width: 2200px){
+	.Barra_Navegacion_i{
+		font-size: 60px;
+	}
+	.Barra_Navegacion_i:hover{
+		font-size: 65px;
+	}
+}
 
 @media screen and (max-width: 850px){
 	.Barra_Navegacion_i{
