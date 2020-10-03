@@ -11,8 +11,10 @@
 	background-repeat: no-repeat; 
 	width: 98%;
 	margin: 1%;
+	margin-top: 14%;
 	background-size: 100%;
 	border-radius: 20px;
+	clear: left;
 }
 
 .embellesedor{
@@ -47,6 +49,11 @@
 -------------------------------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------------------------
 */
+
+.Barra_celular_pb{
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
 
 .Titulo_Principal{
 	clip-path: none;
@@ -156,13 +163,24 @@
 
 
 
-
 @media screen and (max-width: 558px){
 	.Titulo_Principal_index{
 		font-size: 50px;
 	}
 	.Titulo_index{
 		font-size: 20px
+	}
+}
+
+@media screen and (max-width: 511px){
+	.Contenedor_Principal_index{
+		margin-top: 90px;
+	}
+}
+
+@media screen and (max-width: 310px){
+	.Contenedor_Principal_index{
+		margin-top: 70px;
 	}
 }
 
@@ -204,6 +222,26 @@
 	}
 	.parrafo_blog{
 		font-size: 10px
+	}
+	
+}
+
+@media screen and (max-width: 202px){
+	.Contenedor_Principal_index{
+		margin-top: 55px;
+	}
+
+	.Titulo_Principal_index{
+		font-size: 18px;
+	}
+	.Titulo_index{
+		font-size: 5px
+	}
+	.Titulo_Principal{
+		font-size: 17px;
+	}
+	.parrafo_blog{
+		font-size: 8px
 	}
 	
 }

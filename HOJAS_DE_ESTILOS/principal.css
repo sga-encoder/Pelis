@@ -48,7 +48,7 @@ table {border-collapse: collapse;border-spacing: 0;}
 body{
 	width: 100%;
 	font-family: "Marbles Trick 1_PersonalUseOnly";
-	background-color: #474747
+	background-color: #474747;
 }
 
 img{
@@ -119,6 +119,68 @@ footer{
 	color: #000000;
 }
 
+
+.Barra_celular_c{
+	background-color: #9500FF;
+	overflow: hidden;
+	border-radius: 15px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 2;
+}
+
+.Barra_celular_pa{
+	font-size: 30px;
+	float: left;
+	padding: 4%;
+	padding-right: 0%;
+}
+
+.Barra_celular_pa:any-link{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.Barra_celular_pb{
+	font-size: 30px;
+	float: right;
+	margin-right: 35%;
+	background-color: #008FFF;
+	border-radius: 10px;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	padding: 1%;
+	color: #ffffff;
+}
+
+.s{
+	text-align: center;
+	font-size: 15px;
+	color: #000000;
+	
+}
+
+.navegacion{
+	border-radius: 15px;
+	font-size: 30px;
+	background-color: #9500FF;
+	padding: 4%;
+}
+
+.Navegacion_a{
+	border-bottom: 3px solid ;
+	border-left: 3px solid;
+	padding-left: 1%;
+	margin-top: 5px
+}
+
+.Navegacion_e:any-link{
+	color: #ffffff;
+	text-decoration: none;
+}
+
 /*
 -------------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------       BARRA DE NAVEGACION       ------------------------------------------------------
@@ -142,6 +204,7 @@ footer{
 	padding: 15px;
 	clip-path: polygon(0% 0%, 90% 0%, 100% 100%, 10% 100%); 
 	border: 2px dashed;
+	border-radius: 0px;
 }
 
 /*
@@ -205,7 +268,12 @@ footer{
 -------------------------------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------------------------
 */
-
+@media screen and (min-width: 650px){
+	.Barra_celular_c,
+	.navegacion{
+		display: none;
+	}
+}
 
 @media screen and (min-width: 1000px){
 	.Barra_Navegacion_i{
@@ -215,7 +283,6 @@ footer{
 		font-size: 32px;
 	}
 }
-
 
 @media screen and (min-width: 1100px){
 	.Barra_Navegacion_i{
@@ -252,6 +319,8 @@ footer{
 		font-size: 65px;
 	}
 }
+
+
 
 @media screen and (max-width: 850px){
 	.Barra_Navegacion_i{
@@ -321,7 +390,7 @@ footer{
 		display: none;
 	}
 	.Titulo_Principal{
-		margin-top: 10px;
+		margin-top: 85px;
 		font-size: 20px;
 	}
 	.titulo-h2{
@@ -334,6 +403,41 @@ footer{
 
 }
 
+@media screen and (max-width: 649px){
+	.js .navegacion{
+		max-height: 0;
+		overflow: hidden;
+		transition: max-height .5s;
+		position: absolute;
+		font-size: 30;
+		top: 4px;
+		left: 0px;
+		right: 0px;
+		background-color: #9500FF;
+		transition: padding .5s;
+		border-bottom-left-radius: 15px;
+		border-bottom-right-radius: 15px;
+		z-index: 1;
+	}
+	
+/*	.js .navegacion a{
+		padding: 5px 10px;
+		color: #A7A7A7;
+		border-top: 1px solid rgba(255, 255, 255, 0.4);
+		
+	}
+*/
+	
+	.js .navegacion.menu-desplegado{
+		max-height: 200px;
+		padding-top: 0;
+		transition: padding .5s;
+		transition: max-height .5s;
+		z-index: 3;
+		top: 70px;
+	}
+}
+	
 @media screen and (max-width: 470px){
 	.contenedores_i{
 		width: 98%;
@@ -342,7 +446,8 @@ footer{
 	}
 	.Titulo_Principal{
 		font-size: 24px;
-		text-align: center:
+		text-align: center;
+		margin-top: 60px
 	}
 	.titulo-h2{
 		font-size: 15px;
