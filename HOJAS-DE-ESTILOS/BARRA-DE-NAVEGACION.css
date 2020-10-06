@@ -1,0 +1,219 @@
+@font-face{
+ font-family: "Marbles Trick 1_PersonalUseOnly";
+ src: url(FUENTES/Marbles_Trick 1_PersonalUseOnly.ttf) format("TrueType");
+ font-weight: normal;
+ font-style: normal;
+}
+
+/*
+--------------------------------------------------------------
+----------------        BARRA PARA PC       ------------------
+--------------------------------------------------------------
+*/
+
+
+.BARRA-DE-NAVEGACION-FONDO{
+	background-color: #9500FF;
+	width: 94%;
+	border-radius: 5px;
+	margin: 3%;
+	overflow: hidden;
+}
+.BARRA-DE-NAVEGACION-FONDO2{
+	padding: 15px 5%;
+	overflow: hidden;
+}
+.BARRA-DE-NAVEGACION-CONTENIDO{
+	display: inline-block;
+	float: left;
+	padding: 10px 10px;
+	text-align: center;
+	font-family: "Marbles Trick 1_PersonalUseOnly";
+	font-size: 25px;
+	color: #ffffff;
+	width: 20%;
+	margin: 0px 2.5%;
+}
+.BARRA-DE-NAVEGACION-CONTENIDO:hover{
+	background-color: #008FFF;
+	border-radius: 20px;
+	font-size: 26px;
+	box-shadow: 10px 10px 70px 0px black;
+	transition: font-size 1s;
+	color: #000000;
+	text-decoration: none;
+	width: 21%;
+	margin: 0px 2%;
+	transition: color 1s;
+	transition: font-size 1s;
+}
+
+
+/*
+--------------------------------------------------------------
+----------------     BARRA PARA CELULAR     ------------------
+--------------------------------------------------------------
+*/
+
+.BARRA-DE-NAVEGACION-PARA-CELULAR-LANZADOR{
+	width: 94%;
+	margin: 3%;
+	background-color: #9500FF;
+	color: #ffffff;
+	font-family: "Marbles Trick 1_PersonalUseOnly";
+	padding: 3%;
+	font-size: 30px;
+	border-radius: 15px;
+}
+.BARRA-DE-NAVEGACION-PARA-CELULAR-ENLACES:any-link{
+	color: #ffffff;
+	text-decoration: none;
+}
+.BARRA-DE-NAVEGACION-PARA-CELULAR-FONDO{
+	background-color: #9500FF;
+	overflow: hidden;
+	border-radius: 15px;
+	width: 94%;
+	margin: 3%;
+}
+.BARRA-DE-NAVEGACION-PARA-CELULAR-CONTENIDO{
+	border-bottom: 3px solid #000000;
+	border-left: 3px solid #000000;
+	padding-left: 1%;
+	margin-top: 5px;
+	width: 94%;
+	margin: 2% 3%;
+	font-family: "Marbles Trick 1_PersonalUseOnly";
+	font-size: 20px;
+	color: #ffffff;
+}
+
+
+/*
+--------------------------------------------------------------
+----------------        PIE PARA PC         ------------------
+--------------------------------------------------------------
+*/
+
+
+.PIE-DE-PAGINA-CONTENEDOR{
+	width: 94%;
+	margin: 3%;
+	background-color: #008FFF;
+	overflow: hidden;
+	border: 5px dashed #000000;
+	border-radius: 50px;
+}
+.PIE-DE-PAGINA-CONTENIDO{
+	font-family: "Marbles Trick 1_PersonalUseOnly";
+	float: left;
+	margin: 3% 5%;
+	font-size: 20px;
+	color: #ffffff;
+}
+.PIE-DE-PAGINA-ENLASES:any-link{
+	color: #ffffff;
+	text-shadow: 5px 5px 20px #ffffff;
+	text-decoration: none;
+}
+
+
+/*
+--------------------------------------------------------------
+----------------         RESPONSIVE         ------------------
+--------------------------------------------------------------
+*/
+
+
+@media screen and (min-width: 450px){
+	.BARRA-DE-NAVEGACION-PARA-CELULAR-LANZADOR,
+	.BARRA-DE-NAVEGACION-PARA-CELULAR-FONDO{
+		display: none;
+	}
+}
+@media screen and (max-width: 780px){
+	.BARRA-DE-NAVEGACION-CONTENIDO{
+		font-size: 20px;
+	}
+	.BARRA-DE-NAVEGACION-CONTENIDO:hover{
+		font-size: 21px;
+	}
+	.PIE-DE-PAGINA-CONTENIDO{
+		font-size: 17px;
+	}
+}
+@media screen and (max-width: 650px){
+	.BARRA-DE-NAVEGACION-CONTENIDO{
+		font-size: 15px;
+	}
+	.BARRA-DE-NAVEGACION-CONTENIDO:hover{
+		font-size: 16px;
+	}
+	.PIE-DE-PAGINA-CONTENIDO{
+		font-size: 15px;
+	}
+}
+@media screen and (max-width: 515px){
+	.BARRA-DE-NAVEGACION-CONTENIDO{
+		font-size: 12px;
+	}
+	.BARRA-DE-NAVEGACION-CONTENIDO:hover{
+		font-size: 13px;
+	}
+	.PIE-DE-PAGINA-CONTENIDO{
+		font-size: 15px;
+	}
+}
+@media screen and (max-width: 450px){
+	.BARRA-DE-NAVEGACION-FONDO{
+		display: none;
+	}
+	.PIE-DE-PAGINA-CONTENEDOR{
+		border-radius: 20px;
+	}
+	.PIE-DE-PAGINA-CONTENIDO{
+		float: left;
+	}
+	.js .BARRA-DE-NAVEGACION-PARA-CELULAR-FONDO{
+		max-height: 0;
+		overflow: hidden;
+		transition: max-height .5s;
+		position: absolute;
+		font-size: 30;
+		top: 3%;
+		left: 0px;
+		right: 0px;
+		background-color: #9500FF;
+		transition: padding .5s;
+		z-index: 1;
+	}
+	.js .BARRA-DE-NAVEGACION-PARA-CELULAR-LANZADOR.MENU-DESPLEGADO{
+		border-bottom-left-radius: 0px;
+		border-bottom-right-radius: 0px;
+	}
+	.js .BARRA-DE-NAVEGACION-PARA-CELULAR-FONDO.MENU-DESPLEGADO{
+		max-height: 200px;
+		padding-top: 0;
+		transition: padding .5s;
+		transition: max-height .5s;
+		z-index: 3;
+		border-top-left-radius: 0px;
+		border-top-right-radius: 0px;
+		top: 40px;
+	}
+}
+@media screen and (max-width: 350px){
+	.js .BARRA-DE-NAVEGACION-PARA-CELULAR-FONDO.MENU-DESPLEGADO{
+		top: 35px;
+	}
+}
+@media screen and (max-width: 285px){
+	.js .BARRA-DE-NAVEGACION-PARA-CELULAR-FONDO.MENU-DESPLEGADO{
+		top: 35px;
+	}
+}
+@media screen and (max-width: 230px){
+	.js .BARRA-DE-NAVEGACION-PARA-CELULAR-FONDO.MENU-DESPLEGADO{
+		top: 30px;
+	}
+}

@@ -1,13 +1,13 @@
 /* Variables: cámbialas por los id y clase correspondiente */
 
 /* id del enlace que despliega el menú */
-var lanzador = "#enlace-menu";
+var lanzador = "#ENLACE-DEL-MENU";
 
 /* id del menú que será desplegado */
-var desplegable = "#menu";
+var desplegable = "#MENU";
 
 /* clase (sin el punto) que muestra el menú */
-var despliegaClase = "menu-desplegado";
+var despliegaClase = "MENU-DESPLEGADO";
 	
 	
 /* A partir de aquí, puedes dejar el código tal cual */
