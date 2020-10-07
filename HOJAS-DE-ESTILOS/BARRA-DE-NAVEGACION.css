@@ -1,9 +1,25 @@
+/*
+--------------------------------------------------------------
+----------------       GENERALIDADES        ------------------
+--------------------------------------------------------------
+*/
+
+
+*{
+	box-sizing: border-box
+}
+body{
+	width: 100%;
+	background-color: #474747;
+}
 @font-face{
  font-family: "Marbles Trick 1_PersonalUseOnly";
  src: url(FUENTES/Marbles_Trick 1_PersonalUseOnly.ttf) format("TrueType");
  font-weight: normal;
  font-style: normal;
 }
+
+
 
 /*
 --------------------------------------------------------------
@@ -46,6 +62,10 @@
 	margin: 0px 2%;
 	transition: color 1s;
 	transition: font-size 1s;
+}
+.BARRA-DE-NAVEGACION-ENLACES:any-link{
+	color: #ffffff;
+	text-decoration: none;
 }
 
 
@@ -174,6 +194,8 @@
 	.PIE-DE-PAGINA-CONTENIDO{
 		float: left;
 	}
+}
+@media screen and (max-width: 449px){
 	.js .BARRA-DE-NAVEGACION-PARA-CELULAR-FONDO{
 		max-height: 0;
 		overflow: hidden;

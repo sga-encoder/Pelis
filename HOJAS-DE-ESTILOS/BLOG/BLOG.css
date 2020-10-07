@@ -1,0 +1,123 @@
+/*
+--------------------------------------------------------------
+----------------       GENERALIDADES        ------------------
+--------------------------------------------------------------
+*/
+
+
+*{
+	box-sizing: border-box
+}
+body{
+	width: 100%;
+	background-color: #474747;
+}
+@font-face{
+ font-family: "Marbles Trick 1_PersonalUseOnly";
+ src: url(FUENTES/Marbles_Trick 1_PersonalUseOnly.ttf) format("TrueType");
+ font-weight: normal;
+ font-style: normal;
+}
+
+
+/*
+--------------------------------------------------------------
+----------------     TITULO DE SECCION      ------------------
+--------------------------------------------------------------
+*/
+
+
+.TITULO-PRINCIPAL{
+	width: 94%;
+	margin: 3%;
+	text-align: center;
+	background-color: #008FFF;
+	border: 5px dashed #000000;
+	padding: 3%;
+	font-family: "Marbles Trick 1_PersonalUseOnly";
+	font-size: 50px;
+	clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+}
+
+/*
+--------------------------------------------------------------
+----------------          ARTICULOS         ------------------
+--------------------------------------------------------------
+*/
+
+
+.CONTENEDOR-DE-ARTICULOS-BLOG{
+	width: 94%;
+	margin: 3%;
+	background-color: #A7A7A7;
+	border: 5px solid #000000;
+	border-radius: 20px;
+}
+.TITULO-ARTICULO-BLOG{
+	padding: 1%;
+	border-radius: 15px;
+	width: 60%;
+	margin: 3% 20%;
+	font-family: "Marbles Trick 1_PersonalUseOnly";
+	text-align: center;
+	font-size: 30px;
+}
+.CONTENEDOR-DE-FOTOS-BLOG{
+	width: 94%;
+	margin: 0% 3%;
+	overflow: hidden;
+	background-color: #000000;
+	border-radius: 20px;
+}
+.COLLAGE-FOTOS-BLOG{
+	max-width: 100%;
+	float: left;
+	width: 21%;
+	margin: 2%;
+	border-radius: 20px;
+}
+.CONTENIDO-BLOG{
+	width: 94%;
+	margin: 3%;
+	font-family: "Marbles Trick 1_PersonalUseOnly";
+	font-size: 20px;
+}
+
+
+
+@media screen and (max-width: 550px){
+	.TITULO-PRINCIPAL{
+		font-size: 40px;
+	}
+}
+@media screen and (max-width: 530px){
+	.TITULO-ARTICULO-BLOG{
+		font-size: 27px;
+	}
+}
+@media screen and (max-width: 480px){
+	.TITULO-ARTICULO-BLOG{
+		font-size: 25px;
+	}
+	.CONTENIDO-BLOG{
+		font-size: 17px;
+	}
+}
+@media screen and (max-width: 450px){
+	.COLLAGE-FOTOS-BLOG{
+		width: 46%
+	}
+}
+@media screen and (max-width: 445px){
+	.TITULO-ARTICULO-BLOG{
+		font-size: 23px;
+	}
+}
+@media screen and (max-width: 410px){
+	.TITULO-ARTICULO-BLOG{
+		font-size: 20px;
+	}
+	.CONTENIDO-BLOG{
+		font-size: 15px;
+	}
+}

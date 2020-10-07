@@ -1,0 +1,59 @@
+/*
+--------------------------------------------------------------
+----------------     TITULO DE SECCION      ------------------
+--------------------------------------------------------------
+*/
+
+
+.TITULO-PRINCIPAL{
+	width: 94%;
+	margin: 3%;
+	text-align: center;
+	background-color: #008FFF;
+	border: 5px dashed #000000;
+	padding: 3%;
+	font-family: "Marbles Trick 1_PersonalUseOnly";
+	font-size: 50px;
+	clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+}
+
+
+/*
+--------------------------------------------------------------
+----------------          ARTICULOS         ------------------
+--------------------------------------------------------------
+*/
+
+
+.CONTENEDOR-DE-ARTICULOS-4COLUMNAS{
+	width: 23%;
+	height: 650px;
+	margin: 1%;
+	background-color: #A7A7A7;
+	border: 5px solid #000000;
+	border-radius: 20px;
+	float: left;
+}
+.TITULO-ARTICULO-4COLUMNAS{
+	padding: 1%;
+	border-radius: 15px;
+	margin: 3% auto;
+	font-family: "Marbles Trick 1_PersonalUseOnly";
+	text-align: center;
+	font-size: 30px;
+}
+.CONTENEDOR-DE-FOTOS-4COLUMNAS{
+	width: 98%;
+	margin: 1%;
+	overflow: hidden;
+	border-radius: 20px;
+}
+.FOTOS-4COLUMNAS{
+	max-width: 100%;
+}
+.CONTENIDO-ARTICULO-4COLUMNAS{
+	width: 96%;
+	margin: 2%;
+	font-family: "Marbles Trick 1_PersonalUseOnly";
+	font-size: 17px;
+}
