@@ -121,3 +121,18 @@ body{
 		font-size: 15px;
 	}
 }
+@media screen and (max-width: 410px){
+	.TITULO-ARTICULO-BLOG{
+		padding: 0px;
+		margin: 5% auto;
+		width: 90%;
+	}
+}
+@media screen and (max-width: 280px){
+	.TITULO-ARtICULO-BLOG{
+		font-size: 17px;
+	}
+	.CONTENIDO-BLOG{
+		font-size: 10px;
+	}
+}
