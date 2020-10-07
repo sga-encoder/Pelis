@@ -129,6 +129,10 @@ body{
 	font-family: "Marbles Trick 1_PersonalUseOnly";
 	font-size: 20px;
 }
+.ENLASES:any-link{
+	color: #000000;
+	text-decoration: none;
+}
 
 
 /*
@@ -154,14 +158,6 @@ body{
 		font-size: 20px
 	}
 }
-@media screen and (max-width: 670px){
-	.TITULO-ARTICULO{
-		font-size: 25px;
-	}
-	.CONTENIDO-BLOG{
-		font-size: 15px;
-	}
-}
 @media screen and (max-width: 575px){
 	.TITULO-DEL-BLOG{
 		font-size: 40px
@@ -170,9 +166,22 @@ body{
 		font-size: 17px
 	}
 }
+@media screen and (max-width: 530px){
+	.TITULO-ARTICULO{
+		font-size: 27px;
+	}
+}
 @media screen and (max-width: 500px){
 	.TITULO-DE-SECCION{
 		font-size: 40px
+	}
+}
+@media screen and (max-width: 480px){
+	.TITULO-ARTICULO{
+		font-size: 25px;
+	}
+	.CONTENIDO-ARTICULO{
+		font-size: 17px;
 	}
 }
 @media screen and (max-width: 460px){
@@ -188,15 +197,20 @@ body{
 		width: 46%;
 	}
 }
+@media screen and (max-width: 410px){
+	.TITULO-ARTICULO{
+		font-size: 20px;
+		padding: 0px;
+		margin: 5% auto;
+		width: 90%;
+	}
+	.CONTENIDO-ARTICULO{
+		font-size: 15px;
+	}
+}
 @media screen and (max-width: 405px){
 	.TITULO-DE-SECCION{
 		font-size: 30px;
-	}
-	.TITULO-ARTICULO{
-		font-size: 20px;
-	}
-	.CONTENIDO-BLOG{
-		font-size: 12px;
 	}
 }
 @media screen and (max-width: 360px){
