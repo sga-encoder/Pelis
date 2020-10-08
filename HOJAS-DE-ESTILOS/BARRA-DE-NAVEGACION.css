@@ -14,7 +14,7 @@ body{
 }
 @font-face{
  font-family: "Marbles Trick 1_PersonalUseOnly";
- src: url(FUENTES/Marbles_Trick 1_PersonalUseOnly.ttf) format("TrueType");
+ src: url(../FUENTES/Marbles_Trick%201_PersonalUseOnly.ttf) format("TrueType");
  font-weight: normal;
  font-style: normal;
 }
@@ -135,6 +135,7 @@ body{
 	color: #ffffff;
 	text-shadow: 5px 5px 20px #ffffff;
 	text-decoration: none;
+
 }
 
 
