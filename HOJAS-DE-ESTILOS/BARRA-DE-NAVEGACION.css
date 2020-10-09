@@ -1,28 +1,5 @@
 /*
 --------------------------------------------------------------
-----------------       GENERALIDADES        ------------------
---------------------------------------------------------------
-*/
-
-
-*{
-	box-sizing: border-box
-}
-body{
-	width: 100%;
-	background-color: #474747;
-}
-@font-face{
- font-family: "Marbles Trick 1_PersonalUseOnly";
- src: url(../FUENTES/Marbles_Trick%201_PersonalUseOnly.ttf) format("TrueType");
- font-weight: normal;
- font-style: normal;
-}
-
-
-
-/*
---------------------------------------------------------------
 ----------------        BARRA PARA PC       ------------------
 --------------------------------------------------------------
 */

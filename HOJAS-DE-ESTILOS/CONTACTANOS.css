@@ -1,0 +1,54 @@
+.TITULO-DE-SECCION{
+	width: 94%;
+	margin: 3%;
+	text-align: center;
+	background-color: #008FFF;
+	border-radius: 100px;
+	border: 5px dashed #000000;
+	padding: 3%;
+	font-family: "Marbles Trick 1_PersonalUseOnly";
+	font-size: 50px;
+}
+.FORMULARIO-CONTACTO{
+	width: 93%;
+	margin: 3%;
+	padding-left: 20%;
+	background: #A7A7A7;
+	border-radius: 20px;
+	border: 5px solid #000000;
+	padding-top: 3%
+}
+.CONTACTANOS-CONTENIDO{
+	display: inline-block;
+	width: 45%;
+	font-size: 20px;
+	font-family: "Marbles Trick 1_PersonalUseOnly";
+	overflow: hidden;
+}
+.CONTACTANOS-LABEL{
+	font-size: 20px;
+	font-family: "Marbles Trick 1_PersonalUseOnly";
+	background-color: #A7A7A7;
+	margin-top: 5px;
+}
+.TEXTAREA{
+	resize: none;
+	font-family: "Marbles Trick 1_PersonalUseOnly";
+	font-size: 20px;
+	margin-top: 5px;
+	background-color: #A7A7A7;
+}
+.CONTENIDO{
+	display: inline-block;
+	width: 15%;
+	font-size: 25px;
+	font-family: "Marbles Trick 1_PersonalUseOnly";
+}
+.BOTON{
+	margin-left: 22%;
+	background-color: #A7A7A7;
+	font-family: "Marbles Trick 1_PersonalUseOnly";
+	font-size: 20px;
+	margin-bottom: 3%
+	
+}

@@ -1,0 +1,90 @@
+/*
+--------------------------------------------------------------
+----------------       GENERALIDADES        ------------------
+--------------------------------------------------------------
+*/
+
+
+img{
+	max-width: 100%
+}
+video{
+	max-width: 100%;
+}
+
+
+/*
+--------------------------------------------------------------
+----------------     TITULO DE SECCION      ------------------
+--------------------------------------------------------------
+*/
+
+
+.TITULO-PRINCIPAL-BLOG{
+	width: 94%;
+	margin: 3%;
+	text-align: center;
+	background-color: #008FFF;
+	border: 5px dashed #000000;
+	padding: 3%;
+	font-family: "Marbles Trick 1_PersonalUseOnly";
+	font-size: 50px;
+	clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
+}
+
+
+/* 
+--------------------------------------------------------------
+----------------          ARTICULO          ------------------
+--------------------------------------------------------------
+*/
+
+.CONTENEDOR-DEL-BLOG{
+	width: 94%;
+	margin: 3%;
+	background-color: #A7A7A7;
+	border: 5px solid #000000;
+	border-radius: 20px;
+	overflow: hidden;
+}
+.TITULOS-DEL-BLOG{
+	font-family: "Marbles Trick 1_PersonalUseOnly";
+	text-align: center;
+	margin: 3%;
+	font-size: 25px;
+	color: #444444;
+}
+.SUBTITULO-DEL-BLOG{
+	font-family: "Marbles Trick 1_PersonalUseOnly";
+	text-align: center;
+	margin: 1%;
+	font-size: 25px;
+	color: #000000
+}
+.IMAGENES{
+	width: 45%;
+	float: left;
+	margin: 3%;
+}
+.TEXTO{
+	margin: 3%;
+	font-family: "Marbles Trick 1_PersonalUseOnly";
+	font-size: 20px;
+	color: #000000;
+	text-align: left;
+}
+.VIDEO{
+	width: 60%;
+	margin: 3% 20%;
+}
+.BOTON-ATRAS{
+	margin: 0 3%;
+	font-family: "Marbles Trick 1_PersonalUseOnly";
+	font-size: 50px;
+}
+.BOTON-SIGUIENTE{
+	margin: 0 3%;
+	font-family: "Marbles Trick 1_PersonalUseOnly";
+	font-size: 50px;
+	float: right;
+}
