@@ -36,9 +36,10 @@
 	resize: none;
 	font-family: "Marbles Trick 1_PersonalUseOnly";
 	font-size: 20px;
-	margin-top: -5px;
-	margin-left: 5%;
+	margin-top: 1%;
+	margin-bottom: 1%;
 	background-color: #A7A7A7;
+	border: 2px outset. #000000;
 }
 .CONTENIDO-T{
 	display: inline-block;
@@ -59,7 +60,7 @@
 	font-family: "Marbles Trick 1_PersonalUseOnly";
 	font-size: 20px;
 	margin-bottom: 3%;
-	clear: left;
+	
 	
 }
 
