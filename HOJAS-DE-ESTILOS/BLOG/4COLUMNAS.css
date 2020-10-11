@@ -23,12 +23,13 @@
 ----------------          ARTICULOS         ------------------
 --------------------------------------------------------------
 */
-
-
+.CONTENEDOR-4COLUMNAS{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
 .CONTENEDOR-DE-ARTICULOS-4COLUMNAS{
 	width: 23%;
-	height: 650px;
-	margin: 1%;
 	background-color: #A7A7A7;
 	border: 5px solid #000000;
 	border-radius: 20px;
@@ -67,25 +68,15 @@
 	.TITULO-ARTICULO-4COLUMNAS{
 		font-size: 25px;
 	}
-	.CONTENEDOR-DE-ARTICULOS-4COLUMNAS{
-		height: 750px;
-	}
 }
 @media screen and (max-width: 650px){
 	.CONTENEDOR-DE-ARTICULOS-4COLUMNAS{
 		width: 44%;
-		margin: 3%
+		margin-top: 3%;
 	}
 	.TITULO-ARTICULO-4COLUMNAS{
 		font-size: 30px;
 	}
-	
-}
-@media screen and (max-width: 500px){
-	.CONTENEDOR-DE-ARTICULOS-4COLUMNAS{
-		height: 650px;
-	}
-
 }
 @media screen and (max-width: 480px){
 	.TITULO-ARTICULO-4COLUMNAS{
@@ -93,9 +84,6 @@
 	}
 }
 @media screen and (max-width: 420px){
-	.CONTENEDOR-DE-ARTICULOS-4COLUMNAS{
-		height: 560px;
-	}
 	.TITULO-ARTICULO-4COLUMNAS{
 		font-size: 17px;
 	}

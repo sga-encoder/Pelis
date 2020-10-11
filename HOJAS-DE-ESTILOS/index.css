@@ -88,6 +88,9 @@
 	color: #ffffff;
 }
 .CONTENEDOR-DE-FOTOS{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
 	width: 94%;
 	margin: 0% 3%;
 	overflow: hidden;
@@ -97,8 +100,8 @@
 .COLLAGE-FOTOS{
 	max-width: 100%;
 	float: left;
+	margin: 2% 0;
 	width: 21%;
-	margin: 2%;
 	border-radius: 20px;
 }
 .CONTENIDO-ARTICULO{

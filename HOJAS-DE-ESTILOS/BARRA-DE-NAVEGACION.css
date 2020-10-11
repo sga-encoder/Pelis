@@ -13,6 +13,7 @@
 	overflow: hidden;
 }
 .BARRA-DE-NAVEGACION-FONDO2{
+	display: flex;
 	padding: 15px 5%;
 	overflow: hidden;
 }
@@ -26,6 +27,7 @@
 	color: #ffffff;
 	width: 20%;
 	margin: 0px 2.5%;
+	flex-grow: 1;
 }
 .BARRA-DE-NAVEGACION-CONTENIDO:hover{
 	background-color: #008FFF;
